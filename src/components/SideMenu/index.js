@@ -1,11 +1,11 @@
-import SideMenu from "./component";
+import SideMenu from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { fetchSongs, fetchRecentlyPlayed, updateViewType } from '../../actions/songActions';
-import { fetchAlbums } from '../../actions/albumActions';
-import { fetchArtists } from '../../actions/artistActions';
-import { fetchFeatured } from '../../actions/browseActions';
-import { updateHeaderTitle } from '../../actions/uiActions';
+import { fetchSongs, fetchRecentlyPlayed, updateViewType } from '../../actions/songActions.js';
+import { fetchAlbums } from '../../actions/albumActions.js';
+import { fetchArtists } from '../../actions/artistActions.js';
+import { fetchFeatured } from '../../actions/browseActions.js';
+import { updateHeaderTitle } from '../../actions/uiActions.js';
 
 const mapStateToProps = (state) => {
 

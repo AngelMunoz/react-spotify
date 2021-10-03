@@ -1,8 +1,8 @@
-import AlbumList from "./component";
+import AlbumList from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { fetchArtistSongs } from "../../actions/artistActions";
-import { updateHeaderTitle } from "../../actions/uiActions";
+import { fetchArtistSongs } from "../../actions/artistActions.js";
+import { updateHeaderTitle } from "../../actions/uiActions.js";
 
 const mapStateToProps = state => {
   return {

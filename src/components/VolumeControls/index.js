@@ -1,14 +1,14 @@
-import SongControls from "./component";
+import SongControls from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { updateVolume } from '../../actions/soundActions';
+import { updateVolume } from '../../actions/soundActions.js';
 
 const mapStateToProps = (state) => {
-  
+
   return {
     volume: state.soundReducer.volume
   };
-  
+
 };
 
 const mapDispatchToProps = (dispatch) => {

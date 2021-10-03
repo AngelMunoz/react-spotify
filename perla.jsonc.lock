@@ -1,0 +1,36 @@
+{
+  "imports": {
+    "lodash": "https://ga.jspm.io/npm:lodash@4.17.21/lodash.js",
+    "moment": "https://ga.jspm.io/npm:moment@2.29.1/moment.js",
+    "prop-types": "https://ga.jspm.io/npm:prop-types@15.7.2/index.js",
+    "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
+    "react-dom": "https://ga.jspm.io/npm:react-dom@17.0.2/index.js",
+    "react-redux": "https://ga.jspm.io/npm:react-redux@7.2.5/lib/index.js",
+    "redux": "https://ga.jspm.io/npm:redux@4.1.1/lib/redux.js",
+    "redux-thunk": "https://ga.jspm.io/npm:redux-thunk@2.3.0/lib/index.js",
+    "lodash/uniqBy": "https://ga.jspm.io/npm:lodash@4.17.21/uniqBy.js"
+  },
+  "scopes": {
+    "https://ga.jspm.io/": {
+      "@babel/runtime/helpers/extends": "https://ga.jspm.io/npm:@babel/runtime@7.15.4/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "https://ga.jspm.io/npm:@babel/runtime@7.15.4/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutPropertiesLoose": "https://ga.jspm.io/npm:@babel/runtime@7.15.4/helpers/objectWithoutPropertiesLoose.js",
+      "hoist-non-react-statics": "https://ga.jspm.io/npm:hoist-non-react-statics@3.3.2/dist/hoist-non-react-statics.cjs.js",
+      "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
+      "prop-types": "https://ga.jspm.io/npm:prop-types@15.7.2/index.js",
+      "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
+      "react-dom": "https://ga.jspm.io/npm:react-dom@16.14.0/index.js",
+      "react-is": "https://ga.jspm.io/npm:react-is@16.13.1/index.js",
+      "scheduler": "https://ga.jspm.io/npm:scheduler@0.19.1/index.js"
+    },
+    "https://ga.jspm.io/npm:react-dom@16.14.0/": {
+      "react": "https://ga.jspm.io/npm:react@16.14.0/index.js"
+    },
+    "https://ga.jspm.io/npm:react@17.0.2/": {
+      "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js"
+    },
+    "https://ga.jspm.io/npm:redux@4.1.1/": {
+      "@babel/runtime/helpers/objectSpread2": "https://ga.jspm.io/npm:@babel/runtime@7.15.4/helpers/objectSpread2.js"
+    }
+  }
+}

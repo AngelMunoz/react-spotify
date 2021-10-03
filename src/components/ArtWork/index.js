@@ -1,4 +1,4 @@
-import SongControls from "./component";
+import ArtWork from "./component.jsx";
 import { connect } from "react-redux";
 
 const mapStateToProps = state => {
@@ -9,4 +9,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps)(SongControls);
+export default connect(mapStateToProps)(ArtWork);

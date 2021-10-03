@@ -1,7 +1,7 @@
-import TrackSearch from "./component";
+import TrackSearch from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { searchSongs } from '../../actions/songActions';
+import { searchSongs } from '../../actions/songActions.js';
 
 const mapStateToProps = (state) => {
 

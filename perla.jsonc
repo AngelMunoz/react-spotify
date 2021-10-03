@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/AngelMunoz/Perla/main/perla.schema.json",
+  "index": "./index.html",
+  "devServer": {
+    "port": 3000,
+    "mountDirectories": {
+      "./src": "/src"
+    },
+    "liveReload": true
+  },
+  "packages": {
+    "lodash": "https://ga.jspm.io/npm:lodash@4.17.21/lodash.js",
+    "moment": "https://ga.jspm.io/npm:moment@2.29.1/moment.js",
+    "prop-types": "https://ga.jspm.io/npm:prop-types@15.7.2/index.js",
+    "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
+    "react-dom": "https://ga.jspm.io/npm:react-dom@17.0.2/index.js",
+    "react-redux": "https://ga.jspm.io/npm:react-redux@7.2.5/lib/index.js",
+    "redux": "https://ga.jspm.io/npm:redux@4.1.1/lib/redux.js",
+    "redux-thunk": "https://ga.jspm.io/npm:redux-thunk@2.3.0/lib/index.js"
+  }
+}

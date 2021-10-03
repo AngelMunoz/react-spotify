@@ -37,7 +37,7 @@ export const fetchPlaylistsMenu = (userId, accessToken) => {
     dispatch(fetchPlaylistMenuPending());
 
     fetch(request).then(res => {
-      if(res.statusText === "Unauthorized") {
+      if (res.statusText === "Unauthorized") {
         window.location.href = './';
       }
       return res.json();

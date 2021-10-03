@@ -1,6 +1,6 @@
-import AlbumList from "./component";
+import AlbumList from "./component.jsx";
 import { connect } from "react-redux";
-import uniqBy from "lodash/uniqBy";
+import uniqBy from 'lodash/uniqBy';
 
 const mapStateToProps = state => {
   const albumSongs = state.songsReducer.songs

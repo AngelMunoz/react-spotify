@@ -7,7 +7,6 @@
 .user-playlist-header {
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'Proxima Thin', Georgia, sans-serif;
   font-size: 13px;
   margin: 0;
   padding: 0 0 5px 0;
@@ -30,12 +29,12 @@
 }
 
 .user-playlist-container .active {
-	margin-left: -3px;
+  margin-left: -3px;
 }
 
 .user-playlist-container .active:before {
-	content: "";
-	border-left: 3px solid #1db954;
-	position: relative;
-	left: -18px;
+  content: '';
+  border-left: 3px solid #1db954;
+  position: relative;
+  left: -18px;
 }

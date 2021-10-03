@@ -1,13 +1,13 @@
-import MainHeader from "./component";
+import MainHeader from "./component.jsx";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import {
   fetchCategories,
   fetchNewReleases,
   fetchFeatured
-} from "../../actions/browseActions";
-import { updateHeaderTitle } from "../../actions/uiActions";
-import { updateViewType } from "../../actions/songActions";
+} from "../../actions/browseActions.js";
+import { updateHeaderTitle } from "../../actions/uiActions.js";
+import { updateViewType } from "../../actions/songActions.js";
 
 const mapStateToProps = state => {
   return {

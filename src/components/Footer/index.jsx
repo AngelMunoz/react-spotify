@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SongControls from "../SongControls";
-import VolumeControls from "../VolumeControls";
+import SongControls from "../SongControls/index.js";
+import VolumeControls from "../VolumeControls/index.js";
 import "./Footer.css";
 
 const Footer = ({ stopSong, pauseSong, resumeSong, audioControl }) => (

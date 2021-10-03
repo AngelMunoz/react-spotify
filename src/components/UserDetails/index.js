@@ -1,4 +1,4 @@
-import UserDetails from "./component";
+import UserDetails from "./component.jsx";
 import { connect } from "react-redux";
 
 const mapStateToProps = (state) => {

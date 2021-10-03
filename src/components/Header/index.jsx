@@ -1,6 +1,6 @@
 import React from "react";
-import UserDetails from "../UserDetails";
-import TrackSearch from "../TrackSearch";
+import UserDetails from "../UserDetails/index.js";
+import TrackSearch from "../TrackSearch/index.js";
 import "./Header.css";
 
 const Header = () => (

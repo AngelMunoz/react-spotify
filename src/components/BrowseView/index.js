@@ -1,11 +1,11 @@
-import BrowseView from "./component";
+import BrowseView from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import {
   fetchPlaylistSongs,
   addPlaylistItem
-} from "../../actions/playlistActions";
-import { updateHeaderTitle } from "../../actions/uiActions";
+} from "../../actions/playlistActions.js";
+import { updateHeaderTitle } from "../../actions/uiActions.js";
 
 const mapStateToProps = state => {
   return {

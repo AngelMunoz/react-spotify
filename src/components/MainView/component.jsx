@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SongList from "../SongList";
-import AlbumList from "../AlbumList";
-import ArtistList from "../ArtistList";
-import BrowseView from "../BrowseView";
+import SongList from "../SongList/index.js";
+import AlbumList from "../AlbumList/index.js";
+import ArtistList from "../ArtistList/index.js";
+import BrowseView from "../BrowseView/index.js";
 import "./MainView.css";
 
 const MainView = ({ headerTitle, audioControl, resumeSong, pauseSong }) => {

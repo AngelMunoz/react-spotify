@@ -1,8 +1,8 @@
-import SongList from "./component";
+import SongList from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { fetchSongs } from '../../actions/songActions';
-import { addSongToLibrary } from '../../actions/userActions';
+import { fetchSongs } from '../../actions/songActions.js';
+import { addSongToLibrary } from '../../actions/userActions.js';
 
 const mapStateToProps = (state) => {
 

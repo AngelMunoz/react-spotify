@@ -1,5 +1,5 @@
 import uniqBy from 'lodash/uniqBy';
-import { setArtistIds } from './artistActions';
+import { setArtistIds } from './artistActions.js';
 
 export const fetchSongsPending = () => {
   return {
@@ -31,7 +31,7 @@ export const fetchSongs = (accessToken) => {
     dispatch(fetchSongsPending());
 
     fetch(request).then(res => {
-      if(res.statusText === "Unauthorized") {
+      if (res.statusText === "Unauthorized") {
         window.location.href = './';
       }
       return res.json();
@@ -83,7 +83,7 @@ export const searchSongs = (searchTerm, accessToken) => {
     dispatch(searchSongsPending());
 
     fetch(request).then(res => {
-      if(res.statusText === "Unauthorized") {
+      if (res.statusText === "Unauthorized") {
         window.location.href = './';
       }
       return res.json();

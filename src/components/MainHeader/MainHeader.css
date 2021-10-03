@@ -6,7 +6,6 @@
   color: rgb(179, 179, 179);
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Proxima Thin', Georgia, sans-serif;
   letter-spacing: 1px;
   margin: 0 20px;
   cursor: pointer;
@@ -35,19 +34,16 @@
 }
 
 .created-by {
-  font-family: 'Proxima Thin', Georgia, sans-serif;
   font-size: 13px;
   color: #aaa;
   padding: 8px 0;
 }
 
 .lighter-text {
-  font-family: 'Proxima Nova', Georgia, sans-serif;
   color: #fff;
 }
 
 .playlist-text {
-  font-family: 'Proxima Thin', Georgia, sans-serif;
   letter-spacing: 1px;
   font-size: 12px;
 }
@@ -62,7 +58,7 @@
 }
 
 .browse-headers .active:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 35px;
   left: 50%;
@@ -72,29 +68,28 @@
 }
 
 .current-artist-header-container {
-	display: flex;
+  display: flex;
 }
 
 .current-artist-image {
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }
 
 .current-artist-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .current-artist-info p {
-	text-transform: uppercase;
-	font-family: 'Proxima Thin', Georgia, sans-serif;
-	font-size: 13px;
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
 .artist-button {
-	margin-top: 20px;
-	margin-left: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
 }

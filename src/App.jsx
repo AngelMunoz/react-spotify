@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { fetchUser } from './actions/userActions';
-import { setToken } from './actions/tokenActions';
+import { fetchUser } from './actions/userActions.js';
+import { setToken } from './actions/tokenActions.js';
 import {
   playSong,
   stopSong,
   pauseSong,
   resumeSong,
-} from './actions/songActions';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import UserPlaylists from './components/UserPlaylists';
-import MainView from './components/MainView';
-import ArtWork from './components/ArtWork';
-import MainHeader from './components/MainHeader';
-import SideMenu from './components/SideMenu';
+} from './actions/songActions.js';
+import Header from './components/Header/index.jsx';
+import Footer from './components/Footer/index.jsx';
+import UserPlaylists from './components/UserPlaylists/index.js';
+import MainView from './components/MainView/index.js';
+import ArtWork from './components/ArtWork/index.js';
+import MainHeader from './components/MainHeader/index.js';
+import SideMenu from './components/SideMenu/index.js';
 import './App.css';
 
 class App extends Component {

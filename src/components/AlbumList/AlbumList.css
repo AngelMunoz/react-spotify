@@ -19,7 +19,7 @@
 }
 
 .album-image {
-    position: relative;
+  position: relative;
 }
 
 .album-image img {
@@ -53,10 +53,9 @@
 }
 
 .album-details {
-  line-height: 22px
+  line-height: 22px;
 }
 
 .album-details .artist-name {
   color: rgb(179, 179, 179);
-  font-family: 'Proxima Thin', Georgia, sans-serif;
 }

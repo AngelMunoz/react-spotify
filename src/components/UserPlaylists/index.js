@@ -1,8 +1,8 @@
-import UserPlaylists from "./component";
+import UserPlaylists from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { fetchPlaylistsMenu, fetchPlaylistSongs } from '../../actions/playlistActions';
-import { updateHeaderTitle } from '../../actions/uiActions';
+import { fetchPlaylistsMenu, fetchPlaylistSongs } from '../../actions/playlistActions.js';
+import { updateHeaderTitle } from '../../actions/uiActions.js';
 
 const mapStateToProps = (state) => {
 

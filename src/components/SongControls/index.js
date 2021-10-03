@@ -1,7 +1,7 @@
-import SongControls from "./component";
+import SongControls from "./component.jsx";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { increaseSongTime } from "../../actions/songActions";
+import { increaseSongTime } from "../../actions/songActions.js";
 
 const mapStateToProps = state => {
   return {
